@@ -1,0 +1,46 @@
+rcoem@rcoem-Veriton-M200-H310:~/Desktop/Kush Munot/Practical03$ gcc prac03.c -o 03
+rcoem@rcoem-Veriton-M200-H310:~/Desktop/Kush Munot/Practical03$ ./03
+Process Parent ID = 7836
+Process Child ID = 7835
+
+rcoem@rcoem-Veriton-M200-H310:~/Desktop/Kush Munot/Practical03$ gcc prac03.c -o 03
+rcoem@rcoem-Veriton-M200-H310:~/Desktop/Kush Munot/Practical03$ ./03
+From Parent!
+From Parent!
+From Parent!
+From Parent!
+From Parent!
+From Parent!
+From Parent!
+From Parent!
+From Parent!
+From Parent!
+From Child
+From Child
+From Child
+From Child
+From Child
+From Child
+From Child
+From Child
+From Child
+From Child
+
+
+
+rcoem@rcoem-Veriton-M200-H310:~/Desktop/Kush Munot/Practical03$ gcc prac03.c -o 03
+rcoem@rcoem-Veriton-M200-H310:~/Desktop/Kush Munot/Practical03$ ./03
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Child =15
+Parent = 40
+rcoem@rcoem-Veriton-M200-H310:~/Desktop/Kush Munot/Practical03$ ^C
+

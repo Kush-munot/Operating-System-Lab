@@ -1,0 +1,64 @@
+rcoem@rcoem-Veriton-M200-H310:~/Desktop/Kush Munot/Practical 02$ gcc prac02.c -o out
+rcoem@rcoem-Veriton-M200-H310:~/Desktop/Kush Munot/Practical 02$ ./out
+Create a file
+fd = 3 
+
+Please Enter your next choice
+2
+fd = 3 
+
+Please Enter your next choice
+3
+Read contents of a file
+fd = 3 
+
+Please Enter your next choice
+4
+Write to a file
+siz of file = 896 
+
+Please Enter your next choice
+5
+siz of file = 10 
+fd = 3 
+Hello Worl
+
+Please Enter your next choice
+6
+Read contents of a file in a reverse order
+size is 23
+Printing in reverse order
+ereH hsuK !!dlroW olleH
+Please Enter your next choice
+7
+Search the file to find the given pattern (Grep command)
+size is 23
+String found
+
+Please Enter your next choice
+8
+Delete a file
+
+Please Enter your next choice
+9
+To print file status using stat
+
+File access: read 
+File size: 142
+Bulk Size: 4096
+Blocks: 8
+Mode: 142
+Please Enter your next choice
+10
+To print file status using fstat
+
+File access: read 
+File size: 142
+Bulk Size: 4096
+Blocks: 8
+Mode: 142
+Please Enter your next choice
+11
+Exitting the code
+rcoem@rcoem-Veriton-M200-H310:~/Desktop/Kush Munot/Practical 02$ 
+

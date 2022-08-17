@@ -1,0 +1,938 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script type="text/javascript">
+        window.onload = function () {
+            var chart = new CanvasJS.Chart("chartContainer", {
+                title: {
+                    text: "Anime Data Plotting"
+                },
+                data: [{
+                    type: "spline",
+                    dataPoints: [{
+                            label: "Shingeki no Kyojin",
+                            y: 8.53
+                        },
+                        {
+                            label: "Death Note",
+                            y: 8.63
+                        },
+                        {
+                            label: "Fullmetal Alchemist: Brotherhood",
+                            y: 9.14
+                        },
+                        {
+                            label: "Boku no Hero Academia",
+                            y: 7.95
+                        },
+                        {
+                            label: "Naruto",
+                            y: 7.97
+                        },
+                        {
+                            label: "Kimetsu no Yaiba",
+                            y: 8.55
+                        },
+                        {
+                            label: "Hunter x Hunter (2011)",
+                            y: 9.05
+                        },
+                        {
+                            label: "Shingeki no Kyojin Season 2",
+                            y: 8.5
+                        },
+                        {
+                            label: "Boku no Hero Academia 2nd Season",
+                            y: 8.17
+                        },
+                        {
+                            label: "Naruto: Shippuuden",
+                            y: 8.24
+                        },
+                        {
+                            label: "Shingeki no Kyojin Season 3",
+                            y: 8.62
+                        },
+                        {
+                            label: "Noragami",
+                            y: 7.97
+                        },
+                        {
+                            label: "Shigatsu wa Kimi no Uso",
+                            y: 8.67
+                        },
+                        {
+                            label: "Boku no Hero Academia 3rd Season",
+                            y: 8.1
+                        },
+                        {
+                            label: "Akame ga Kill!",
+                            y: 7.47
+                        },
+                        {
+                            label: "Mirai Nikki (TV)",
+                            y: 7.45
+                        },
+                        {
+                            label: "Nanatsu no Taizai",
+                            y: 7.72
+                        },
+                        {
+                            label: "Jujutsu Kaisen (TV)",
+                            y: 8.69
+                        },
+                        {
+                            label: "Shingeki no Kyojin Season 3 Part 2",
+                            y: 9.08
+                        },
+                        {
+                            label: "Ao no Exorcist",
+                            y: 7.52
+                        },
+                        {
+                            label: "Ansatsu Kyoushitsu",
+                            y: 8.1
+                        },
+                        {
+                            label: "Haikyuu!!",
+                            y: 8.45
+                        },
+                        {
+                            label: "Yakusoku no Neverland",
+                            y: 8.55
+                        },
+                        {
+                            label: "Bleach",
+                            y: 7.85
+                        },
+                        {
+                            label: "Fairy Tail",
+                            y: 7.59
+                        }, {
+                            label: "Shingeki no Kyojin: The Final Season",
+                            y: 8.85
+                        },
+                        {
+                            label: "Shokugeki no Souma",
+                            y: 8.19
+                        },
+                        {
+                            label: "Soul Eater",
+                            y: 7.84
+                        },
+                        {
+                            label: "Boku no Hero Academia 4th Season",
+                            y: 7.96
+                        },
+                        {
+                            label: "Dr. Stone",
+                            y: 8.3
+                        },
+                        {
+                            label: "JoJo no Kimyou na Bouken (TV)",
+                            y: 7.92
+                        },
+                        {
+                            label: "Fullmetal Alchemist",
+                            y: 8.12
+                        },
+                        {
+                            label: "Highschool of the Dead",
+                            y: 7.09
+                        },
+                        {
+                            label: "Black Clover",
+                            y: 8.11
+                        },
+                        {
+                            label: "Noragami Aragoto",
+                            y: 8.17
+                        },
+                        {
+                            label: "Kakegurui",
+                            y: 7.27
+                        },
+                        {
+                            label: "Haikyuu!! Second Season",
+                            y: 8.65
+                        },
+                        {
+                            label: "Ansatsu Kyoushitsu 2nd Season",
+                            y: 8.51
+                        },
+                        {
+                            label: "Owari no Seraph",
+                            y: 7.49
+                        },
+                        {
+                            label: "Deadman Wonderland",
+                            y: 7.17
+                        },
+                        {
+                            label: "Samurai Champloo",
+                            y: 8.5
+                        },
+                        {
+                            label: "Dragon Ball Z",
+                            y: 8.15
+                        },
+                        {
+                            label: "Enen no Shouboutai",
+                            y: 7.69
+                        },
+
+                    ]
+                }]
+            });
+
+
+            var chart1 = new CanvasJS.Chart("chartContainer1", {
+                title: {
+                    text: "Anime Data Plotting"
+                },
+                data: [{
+                    type: "column",
+                    dataPoints: [{
+                            label: "Shingeki no Kyojin",
+                            y: 8.53
+                        },
+                        {
+                            label: "Death Note",
+                            y: 8.63
+                        },
+                        {
+                            label: "Fullmetal Alchemist: Brotherhood",
+                            y: 9.14
+                        },
+                        {
+                            label: "Boku no Hero Academia",
+                            y: 7.95
+                        },
+                        {
+                            label: "Naruto",
+                            y: 7.97
+                        },
+                        {
+                            label: "Kimetsu no Yaiba",
+                            y: 8.55
+                        },
+                        {
+                            label: "Hunter x Hunter (2011)",
+                            y: 9.05
+                        },
+                        {
+                            label: "Shingeki no Kyojin Season 2",
+                            y: 8.5
+                        },
+                        {
+                            label: "Boku no Hero Academia 2nd Season",
+                            y: 8.17
+                        },
+                        {
+                            label: "Naruto: Shippuuden",
+                            y: 8.24
+                        },
+                        {
+                            label: "Shingeki no Kyojin Season 3",
+                            y: 8.62
+                        },
+                        {
+                            label: "Noragami",
+                            y: 7.97
+                        },
+                        {
+                            label: "Shigatsu wa Kimi no Uso",
+                            y: 8.67
+                        },
+                        {
+                            label: "Boku no Hero Academia 3rd Season",
+                            y: 8.1
+                        },
+                        {
+                            label: "Akame ga Kill!",
+                            y: 7.47
+                        },
+                        {
+                            label: "Mirai Nikki (TV)",
+                            y: 7.45
+                        },
+                        {
+                            label: "Nanatsu no Taizai",
+                            y: 7.72
+                        },
+                        {
+                            label: "Jujutsu Kaisen (TV)",
+                            y: 8.69
+                        },
+                        {
+                            label: "Shingeki no Kyojin Season 3 Part 2",
+                            y: 9.08
+                        },
+                        {
+                            label: "Ao no Exorcist",
+                            y: 7.52
+                        },
+                        {
+                            label: "Ansatsu Kyoushitsu",
+                            y: 8.1
+                        },
+                        {
+                            label: "Haikyuu!!",
+                            y: 8.45
+                        },
+                        {
+                            label: "Yakusoku no Neverland",
+                            y: 8.55
+                        },
+                        {
+                            label: "Bleach",
+                            y: 7.85
+                        },
+                        {
+                            label: "Fairy Tail",
+                            y: 7.59
+                        }, {
+                            label: "Shingeki no Kyojin: The Final Season",
+                            y: 8.85
+                        },
+                        {
+                            label: "Shokugeki no Souma",
+                            y: 8.19
+                        },
+                        {
+                            label: "Soul Eater",
+                            y: 7.84
+                        },
+                        {
+                            label: "Boku no Hero Academia 4th Season",
+                            y: 7.96
+                        },
+                        {
+                            label: "Dr. Stone",
+                            y: 8.3
+                        },
+                        {
+                            label: "JoJo no Kimyou na Bouken (TV)",
+                            y: 7.92
+                        },
+                        {
+                            label: "Fullmetal Alchemist",
+                            y: 8.12
+                        },
+                        {
+                            label: "Highschool of the Dead",
+                            y: 7.09
+                        },
+                        {
+                            label: "Black Clover",
+                            y: 8.11
+                        },
+                        {
+                            label: "Noragami Aragoto",
+                            y: 8.17
+                        },
+                        {
+                            label: "Kakegurui",
+                            y: 7.27
+                        },
+                        {
+                            label: "Haikyuu!! Second Season",
+                            y: 8.65
+                        },
+                        {
+                            label: "Ansatsu Kyoushitsu 2nd Season",
+                            y: 8.51
+                        },
+                        {
+                            label: "Owari no Seraph",
+                            y: 7.49
+                        },
+                        {
+                            label: "Deadman Wonderland",
+                            y: 7.17
+                        },
+                        {
+                            label: "Samurai Champloo",
+                            y: 8.5
+                        },
+                        {
+                            label: "Dragon Ball Z",
+                            y: 8.15
+                        },
+                        {
+                            label: "Enen no Shouboutai",
+                            y: 7.69
+                        },
+
+                    ]
+                }]
+            });
+
+
+            var chart2 = new CanvasJS.Chart("chartContainer2", {
+                title: {
+                    text: "Anime Data Plotting"
+                },
+                data: [{
+                    type: "splineArea",
+                    dataPoints: [{
+                            label: "Shingeki no Kyojin",
+                            y: 8.53
+                        },
+                        {
+                            label: "Death Note",
+                            y: 8.63
+                        },
+                        {
+                            label: "Fullmetal Alchemist: Brotherhood",
+                            y: 9.14
+                        },
+                        {
+                            label: "Boku no Hero Academia",
+                            y: 7.95
+                        },
+                        {
+                            label: "Naruto",
+                            y: 7.97
+                        },
+                        {
+                            label: "Kimetsu no Yaiba",
+                            y: 8.55
+                        },
+                        {
+                            label: "Hunter x Hunter (2011)",
+                            y: 9.05
+                        },
+                        {
+                            label: "Shingeki no Kyojin Season 2",
+                            y: 8.5
+                        },
+                        {
+                            label: "Boku no Hero Academia 2nd Season",
+                            y: 8.17
+                        },
+                        {
+                            label: "Naruto: Shippuuden",
+                            y: 8.24
+                        },
+                        {
+                            label: "Shingeki no Kyojin Season 3",
+                            y: 8.62
+                        },
+                        {
+                            label: "Noragami",
+                            y: 7.97
+                        },
+                        {
+                            label: "Shigatsu wa Kimi no Uso",
+                            y: 8.67
+                        },
+                        {
+                            label: "Boku no Hero Academia 3rd Season",
+                            y: 8.1
+                        },
+                        {
+                            label: "Akame ga Kill!",
+                            y: 7.47
+                        },
+                        {
+                            label: "Mirai Nikki (TV)",
+                            y: 7.45
+                        },
+                        {
+                            label: "Nanatsu no Taizai",
+                            y: 7.72
+                        },
+                        {
+                            label: "Jujutsu Kaisen (TV)",
+                            y: 8.69
+                        },
+                        {
+                            label: "Shingeki no Kyojin Season 3 Part 2",
+                            y: 9.08
+                        },
+                        {
+                            label: "Ao no Exorcist",
+                            y: 7.52
+                        },
+                        {
+                            label: "Ansatsu Kyoushitsu",
+                            y: 8.1
+                        },
+                        {
+                            label: "Haikyuu!!",
+                            y: 8.45
+                        },
+                        {
+                            label: "Yakusoku no Neverland",
+                            y: 8.55
+                        },
+                        {
+                            label: "Bleach",
+                            y: 7.85
+                        },
+                        {
+                            label: "Fairy Tail",
+                            y: 7.59
+                        }, {
+                            label: "Shingeki no Kyojin: The Final Season",
+                            y: 8.85
+                        },
+                        {
+                            label: "Shokugeki no Souma",
+                            y: 8.19
+                        },
+                        {
+                            label: "Soul Eater",
+                            y: 7.84
+                        },
+                        {
+                            label: "Boku no Hero Academia 4th Season",
+                            y: 7.96
+                        },
+                        {
+                            label: "Dr. Stone",
+                            y: 8.3
+                        },
+                        {
+                            label: "JoJo no Kimyou na Bouken (TV)",
+                            y: 7.92
+                        },
+                        {
+                            label: "Fullmetal Alchemist",
+                            y: 8.12
+                        },
+                        {
+                            label: "Highschool of the Dead",
+                            y: 7.09
+                        },
+                        {
+                            label: "Black Clover",
+                            y: 8.11
+                        },
+                        {
+                            label: "Noragami Aragoto",
+                            y: 8.17
+                        },
+                        {
+                            label: "Kakegurui",
+                            y: 7.27
+                        },
+                        {
+                            label: "Haikyuu!! Second Season",
+                            y: 8.65
+                        },
+                        {
+                            label: "Ansatsu Kyoushitsu 2nd Season",
+                            y: 8.51
+                        },
+                        {
+                            label: "Owari no Seraph",
+                            y: 7.49
+                        },
+                        {
+                            label: "Deadman Wonderland",
+                            y: 7.17
+                        },
+                        {
+                            label: "Samurai Champloo",
+                            y: 8.5
+                        },
+                        {
+                            label: "Dragon Ball Z",
+                            y: 8.15
+                        },
+                        {
+                            label: "Enen no Shouboutai",
+                            y: 7.69
+                        },
+
+                    ]
+                }]
+            });
+
+
+            var chart3 = new CanvasJS.Chart("chartContainer3", {
+                title: {
+                    text: "Anime Data Plotting"
+                },
+                data: [{
+                    type: "scatter",
+                    dataPoints: [{
+                            label: "Shingeki no Kyojin",
+                            y: 8.53
+                        },
+                        {
+                            label: "Death Note",
+                            y: 8.63
+                        },
+                        {
+                            label: "Fullmetal Alchemist: Brotherhood",
+                            y: 9.14
+                        },
+                        {
+                            label: "Boku no Hero Academia",
+                            y: 7.95
+                        },
+                        {
+                            label: "Naruto",
+                            y: 7.97
+                        },
+                        {
+                            label: "Kimetsu no Yaiba",
+                            y: 8.55
+                        },
+                        {
+                            label: "Hunter x Hunter (2011)",
+                            y: 9.05
+                        },
+                        {
+                            label: "Shingeki no Kyojin Season 2",
+                            y: 8.5
+                        },
+                        {
+                            label: "Boku no Hero Academia 2nd Season",
+                            y: 8.17
+                        },
+                        {
+                            label: "Naruto: Shippuuden",
+                            y: 8.24
+                        },
+                        {
+                            label: "Shingeki no Kyojin Season 3",
+                            y: 8.62
+                        },
+                        {
+                            label: "Noragami",
+                            y: 7.97
+                        },
+                        {
+                            label: "Shigatsu wa Kimi no Uso",
+                            y: 8.67
+                        },
+                        {
+                            label: "Boku no Hero Academia 3rd Season",
+                            y: 8.1
+                        },
+                        {
+                            label: "Akame ga Kill!",
+                            y: 7.47
+                        },
+                        {
+                            label: "Mirai Nikki (TV)",
+                            y: 7.45
+                        },
+                        {
+                            label: "Nanatsu no Taizai",
+                            y: 7.72
+                        },
+                        {
+                            label: "Jujutsu Kaisen (TV)",
+                            y: 8.69
+                        },
+                        {
+                            label: "Shingeki no Kyojin Season 3 Part 2",
+                            y: 9.08
+                        },
+                        {
+                            label: "Ao no Exorcist",
+                            y: 7.52
+                        },
+                        {
+                            label: "Ansatsu Kyoushitsu",
+                            y: 8.1
+                        },
+                        {
+                            label: "Haikyuu!!",
+                            y: 8.45
+                        },
+                        {
+                            label: "Yakusoku no Neverland",
+                            y: 8.55
+                        },
+                        {
+                            label: "Bleach",
+                            y: 7.85
+                        },
+                        {
+                            label: "Fairy Tail",
+                            y: 7.59
+                        }, {
+                            label: "Shingeki no Kyojin: The Final Season",
+                            y: 8.85
+                        },
+                        {
+                            label: "Shokugeki no Souma",
+                            y: 8.19
+                        },
+                        {
+                            label: "Soul Eater",
+                            y: 7.84
+                        },
+                        {
+                            label: "Boku no Hero Academia 4th Season",
+                            y: 7.96
+                        },
+                        {
+                            label: "Dr. Stone",
+                            y: 8.3
+                        },
+                        {
+                            label: "JoJo no Kimyou na Bouken (TV)",
+                            y: 7.92
+                        },
+                        {
+                            label: "Fullmetal Alchemist",
+                            y: 8.12
+                        },
+                        {
+                            label: "Highschool of the Dead",
+                            y: 7.09
+                        },
+                        {
+                            label: "Black Clover",
+                            y: 8.11
+                        },
+                        {
+                            label: "Noragami Aragoto",
+                            y: 8.17
+                        },
+                        {
+                            label: "Kakegurui",
+                            y: 7.27
+                        },
+                        {
+                            label: "Haikyuu!! Second Season",
+                            y: 8.65
+                        },
+                        {
+                            label: "Ansatsu Kyoushitsu 2nd Season",
+                            y: 8.51
+                        },
+                        {
+                            label: "Owari no Seraph",
+                            y: 7.49
+                        },
+                        {
+                            label: "Deadman Wonderland",
+                            y: 7.17
+                        },
+                        {
+                            label: "Samurai Champloo",
+                            y: 8.5
+                        },
+                        {
+                            label: "Dragon Ball Z",
+                            y: 8.15
+                        },
+                        {
+                            label: "Enen no Shouboutai",
+                            y: 7.69
+                        },
+
+                    ]
+                }]
+            });
+
+
+            var chart4 = new CanvasJS.Chart("chartContainer4", {
+                title: {
+                    text: "Anime Data Plotting"
+                },
+                data: [{
+                    type: "doughnut",
+                    dataPoints: [{
+                            label: "Shingeki no Kyojin",
+                            y: 8.53
+                        },
+                        {
+                            label: "Death Note",
+                            y: 8.63
+                        },
+                        {
+                            label: "Fullmetal Alchemist: Brotherhood",
+                            y: 9.14
+                        },
+                        {
+                            label: "Boku no Hero Academia",
+                            y: 7.95
+                        },
+                        {
+                            label: "Naruto",
+                            y: 7.97
+                        },
+                        {
+                            label: "Kimetsu no Yaiba",
+                            y: 8.55
+                        },
+                        {
+                            label: "Hunter x Hunter (2011)",
+                            y: 9.05
+                        },
+                        {
+                            label: "Shingeki no Kyojin Season 2",
+                            y: 8.5
+                        },
+                        {
+                            label: "Boku no Hero Academia 2nd Season",
+                            y: 8.17
+                        },
+                        {
+                            label: "Naruto: Shippuuden",
+                            y: 8.24
+                        },
+                        {
+                            label: "Shingeki no Kyojin Season 3",
+                            y: 8.62
+                        },
+                        {
+                            label: "Noragami",
+                            y: 7.97
+                        },
+                        {
+                            label: "Shigatsu wa Kimi no Uso",
+                            y: 8.67
+                        },
+                        {
+                            label: "Boku no Hero Academia 3rd Season",
+                            y: 8.1
+                        },
+                        {
+                            label: "Akame ga Kill!",
+                            y: 7.47
+                        },
+                        {
+                            label: "Mirai Nikki (TV)",
+                            y: 7.45
+                        },
+                        {
+                            label: "Nanatsu no Taizai",
+                            y: 7.72
+                        },
+                        {
+                            label: "Jujutsu Kaisen (TV)",
+                            y: 8.69
+                        },
+                        {
+                            label: "Shingeki no Kyojin Season 3 Part 2",
+                            y: 9.08
+                        },
+                        {
+                            label: "Ao no Exorcist",
+                            y: 7.52
+                        },
+                        {
+                            label: "Ansatsu Kyoushitsu",
+                            y: 8.1
+                        },
+                        {
+                            label: "Haikyuu!!",
+                            y: 8.45
+                        },
+                        {
+                            label: "Yakusoku no Neverland",
+                            y: 8.55
+                        },
+                        {
+                            label: "Bleach",
+                            y: 7.85
+                        },
+                        {
+                            label: "Fairy Tail",
+                            y: 7.59
+                        }, {
+                            label: "Shingeki no Kyojin: The Final Season",
+                            y: 8.85
+                        },
+                        {
+                            label: "Shokugeki no Souma",
+                            y: 8.19
+                        },
+                        {
+                            label: "Soul Eater",
+                            y: 7.84
+                        },
+                        {
+                            label: "Boku no Hero Academia 4th Season",
+                            y: 7.96
+                        },
+                        {
+                            label: "Dr. Stone",
+                            y: 8.3
+                        },
+                        {
+                            label: "JoJo no Kimyou na Bouken (TV)",
+                            y: 7.92
+                        },
+                        {
+                            label: "Fullmetal Alchemist",
+                            y: 8.12
+                        },
+                        {
+                            label: "Highschool of the Dead",
+                            y: 7.09
+                        },
+                        {
+                            label: "Black Clover",
+                            y: 8.11
+                        },
+                        {
+                            label: "Noragami Aragoto",
+                            y: 8.17
+                        },
+                        {
+                            label: "Kakegurui",
+                            y: 7.27
+                        },
+                        {
+                            label: "Haikyuu!! Second Season",
+                            y: 8.65
+                        },
+                        {
+                            label: "Ansatsu Kyoushitsu 2nd Season",
+                            y: 8.51
+                        },
+                        {
+                            label: "Owari no Seraph",
+                            y: 7.49
+                        },
+                        {
+                            label: "Deadman Wonderland",
+                            y: 7.17
+                        },
+                        {
+                            label: "Samurai Champloo",
+                            y: 8.5
+                        },
+                        {
+                            label: "Dragon Ball Z",
+                            y: 8.15
+                        },
+                        {
+                            label: "Enen no Shouboutai",
+                            y: 7.69
+                        },
+
+                    ]
+                }]
+            });
+            chart.render();
+            chart1.render();
+            chart2.render();
+            chart3.render();
+            chart4.render();
+        }
+    </script>
+</head>
+
+<body>
+    <div id="chartContainer" style="height: 500px; width: 98%;"></div> <br><br><br>
+    <div id="chartContainer1" style="height: 500px; width: 98%;"></div> <br><br><br>
+    <div id="chartContainer2" style="height: 500px; width: 98%;"></div> <br><br><br>
+    <div id="chartContainer3" style="height: 500px; width: 98%;"></div> <br><br><br>
+    <div id="chartContainer4" style="height: 500px; width: 98%;"></div> <br><br><br>
+</body>
+
+</html>
